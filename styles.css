@@ -1,3 +1,26 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
+.infophoto {
+    width: 200px;
+    height: 200px;
+}
+
+.headerlogo {
+    width: 35px;
+    height: 35px;
+}
+
+.quoteimg {
+    height: 45px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.links {
+    font-size: 24px;
+}
