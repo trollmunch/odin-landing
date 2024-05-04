@@ -10,7 +10,7 @@
 }
 
 * {
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 .infophoto {
@@ -66,16 +66,27 @@ ul {
 
 .hero {
     background-color: #1F2937;
+    /* display: flex; */
 }
 
 .herohead {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    margin-left: 150px;
 }
 
 .herotext {
     color: #E5E7EB;
+    width: 500px;
+    display: flex;
+    padding-bottom: 10px;
+    margin-left: 150px;
 }
 
 .infohead {
@@ -115,9 +126,24 @@ ul {
     height: 32px;
     background-color: #3882F6;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
 }
 
 .header {
     display: flex;
     align-items: center;
 }
+
+.herocontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.heroimg {
+    display: flex;
+}
+
