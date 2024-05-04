@@ -1,10 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
     font-family: "Roboto", sans-serif;
+}
+
+* {
+    /* outline: 2px solid red; */
 }
 
 .infophoto {
     width: 200px;
     height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
 .headerlogo {
@@ -23,4 +35,50 @@
 
 .links {
     font-size: 24px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+li {
+    list-style-type: none;
+    color: #E5E7EB;
+}
+
+ul {
+    padding: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.herohead {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.herotext {
+    color: #E5E7EB;
+}
+
+.infohead {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.infotext {
+    color: #949494;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
