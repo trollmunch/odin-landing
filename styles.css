@@ -6,10 +6,11 @@
 
 * {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 * {
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 .infophoto {
@@ -22,6 +23,8 @@
 .headerlogo {
     width: 35px;
     height: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .quoteimg {
@@ -31,10 +34,18 @@
 .title {
     font-size: 32px;
     font-weight: bolder;
+    margin: 15px;
+    margin-left: 150px;
 }
 
 .links {
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 150px;
+    padding: 15px;
+    gap: 15px;
 }
 
 .header,
@@ -50,6 +61,7 @@ li {
 
 ul {
     padding: 0;
+    display: flex;
 }
 
 .hero {
@@ -103,4 +115,9 @@ ul {
     height: 32px;
     background-color: #3882F6;
     color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
 }
