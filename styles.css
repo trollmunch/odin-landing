@@ -10,7 +10,7 @@
 }
 
 * {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .infophoto {
@@ -45,7 +45,7 @@
     margin-left: auto;
     margin-right: 150px;
     padding: 15px;
-    gap: 15px;
+    gap: 25px;
 }
 
 .header,
