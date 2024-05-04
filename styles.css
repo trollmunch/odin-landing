@@ -82,3 +82,17 @@ ul {
     font-style: italic;
     font-weight: lighter;
 }
+
+.contact {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.contactbutton {
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
