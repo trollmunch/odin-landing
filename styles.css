@@ -96,3 +96,11 @@ ul {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+.herobutton {
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    background-color: #3882F6;
+    color: white;
+}
