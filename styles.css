@@ -10,7 +10,7 @@
 }
 
 * {
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 .infophoto {
@@ -29,6 +29,7 @@
 
 .quoteimg {
   height: 45px;
+  margin-left: auto;
 }
 
 .title {
@@ -66,7 +67,9 @@ ul {
 
 .hero {
   background-color: #1f2937;
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .herohead {
@@ -75,7 +78,7 @@ ul {
   font-weight: bolder;
   width: 400px;
   height: fit-content;
-  display: flex;
+  /* display: flex; */
   padding-top: 100px;
   padding-bottom: 10px;
   margin-left: 150px;
@@ -84,7 +87,7 @@ ul {
 .herotext {
   color: #e5e7eb;
   width: 500px;
-  display: flex;
+  /* display: flex; */
   padding-bottom: 10px;
   margin-left: 150px;
 }
@@ -93,6 +96,18 @@ ul {
   font-size: 36px;
   color: #1f2937;
   font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.heroimg {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 150px;
+  padding: 15px;
+  gap: 25px;
 }
 
 .infotext {
@@ -104,11 +119,24 @@ ul {
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
+  display: flex;
+  padding: 50px 250px;
+  flex-direction: column;
 }
 
 .contact {
   background-color: #3882f6;
   color: #f9faf8;
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 5px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .contactbutton {
@@ -126,7 +154,7 @@ ul {
   height: 32px;
   background-color: #3882f6;
   color: white;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   margin-left: 150px;
@@ -140,9 +168,52 @@ ul {
 .herocontent {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .heroimg {
   display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.contacthead {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contacttext {
+  font-size: 18px;
+}
+
+.allinfo {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 35px;
+}
+
+.dogs,
+.logo,
+.cornhole,
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.infotext {
+  margin-top: 20px;
+}
+
+.contactinfo {
+  display: flex;
+  flex-direction: column;
 }
