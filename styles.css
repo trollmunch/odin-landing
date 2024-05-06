@@ -10,7 +10,7 @@
 }
 
 * {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /* HEADER */
@@ -207,17 +207,12 @@ ul {
 }
 
 .contactinfo {
-  display: flex;
-  flex-direction: column;
+
 }
 
 .contacttext {
   font-size: 18px;
   flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-right: auto;
 }
 
 .contacthead {
@@ -226,11 +221,23 @@ ul {
   margin-right: auto;
 }
 
-.infocontainer {
+.infotextcon {
   display: flex;
   flex-direction: column;
+  width: fit-content;
+}
+
+.infobuttoncon {
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+.infocontainer {
+  display: flex;
   padding-left: 100px;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* FOOTER */
