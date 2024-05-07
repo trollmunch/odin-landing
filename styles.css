@@ -9,15 +9,8 @@
   margin: 0;
 }
 
-* {
-  /* outline: 2px solid red; */
-}
-
-/* HEADER */
-
 .header {
   display: flex;
-  align-items: center;
 }
 
 .header,
@@ -35,7 +28,6 @@
 
 .links {
   font-size: 24px;
-  display: flex;
   align-items: center;
   margin-left: auto;
   margin-right: 150px;
@@ -67,10 +59,9 @@ ul {
 }
 
 .headerlogo:hover {
+  border-radius: 50px;
   background-color: #949494;
 }
-
-/* HERO */
 
 .hero {
   background-color: #1f2937;
@@ -95,40 +86,29 @@ ul {
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
-  justify-content: space-between;
   gap: 25px;
   align-items: center;
 }
 
 .herotextcontainer {
-  display: flex;
-  flex-direction: column;
   margin-left: 150px;
   flex-shrink: 1;
 }
 
-.heroimgcontainer {
-  display: flex;
-}
-
 .heroimg {
   margin-right: 150px;
-  margin-left: auto;
-  width: fit-content;
-  height: fit-content;
 }
 
 .herohead {
   color: #f9faf8;
   font-size: 48px;
   font-weight: bolder;
-  height: fit-content;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .herotext {
   color: #e5e7eb;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 /* INFO */
@@ -164,9 +144,6 @@ ul {
 .logo,
 .cornhole,
 .stage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 200px;
   text-align: center;
   margin-bottom: 20px;
@@ -202,7 +179,7 @@ ul {
   margin-right: 150px;
   padding-top: 35px;
   padding-bottom: 35px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-top: 35px;
   margin-bottom: 35px;
 }
@@ -214,7 +191,6 @@ ul {
   border: 2px solid #f9faf8;
   background-color: #3882f6;
   color: #f9faf8;
-  margin-left: auto;
   margin-right: 100px;
 }
 
@@ -222,31 +198,13 @@ ul {
   border: 2px solid #1f2937;
 }
 
-.contactinfo {
-
-}
-
 .contacttext {
   font-size: 18px;
-  flex-grow: 1;
 }
 
 .contacthead {
   font-size: 24px;
   font-weight: bold;
-  margin-right: auto;
-}
-
-.infotextcon {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-}
-
-.infobuttoncon {
-  display: flex;
-  justify-content: flex-end;
-  width: fit-content;
 }
 
 .infocontainer {
