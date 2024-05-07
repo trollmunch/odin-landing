@@ -113,7 +113,7 @@ ul {
 
 /* INFO */
 
-.allinfo {
+.info {
   display: flex;
   justify-content: center;
   gap: 70px;
@@ -138,6 +138,7 @@ ul {
 
 .infotext {
   color: #949494;
+  margin-top: 20px;
 }
 
 .dogs,
@@ -147,10 +148,6 @@ ul {
   width: 200px;
   text-align: center;
   margin-bottom: 20px;
-}
-
-.infotext {
-  margin-top: 20px;
 }
 
 /* QUOTE */
