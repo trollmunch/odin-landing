@@ -198,7 +198,7 @@ ul {
   font-weight: bold;
 }
 
-.infocontainer {
+.concontainer {
   display: flex;
   padding-left: 100px;
   align-items: center;
@@ -210,4 +210,3 @@ ul {
   justify-content: center;
   padding: 32px;
 }
-
